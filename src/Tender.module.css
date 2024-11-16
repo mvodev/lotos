@@ -3,3 +3,9 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+
+.header {
+  color: red;
+  font-family: sans-serif;
+  font-size: 22px;
+}
