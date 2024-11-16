@@ -6,6 +6,6 @@ import './index.module.css';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Tender header='Тестовые торги на аппарат Лотос №2033564'/>
+    <Tender header="Тестовые торги на аппарат Лотос №2033564" />
   </StrictMode>,
 );

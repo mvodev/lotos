@@ -1,8 +1,8 @@
 .tenderItem {
   border: 2px solid red;
-  max-width: 200px;
-  width: 100%;
+  width: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex: 1 0 200px;
 }

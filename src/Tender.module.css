@@ -9,3 +9,9 @@ body {
   font-family: sans-serif;
   font-size: 22px;
 }
+
+.tenders {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
