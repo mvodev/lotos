@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import getTimeAsString from 'src/utils/getTimeAsString';
 
+import getTimeAsString from '../utils/getTimeAsString';
 import getTimeFromSeconds from '../utils/getTimeFromSeconds';
 
 export const useTimer = (secondsQuantity: number) => {
