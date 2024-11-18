@@ -15,3 +15,7 @@ body {
   flex-direction: row;
   overflow-x: scroll;
 }
+
+.activeTrader {
+  border: 5px solid green;
+}
