@@ -1,0 +1,54 @@
+.tenderMembers {
+  font-family: sans-serif;
+  table-layout: fixed;
+  min-width: 1400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.tableHeader {
+  color: rgb(107, 42, 218);
+  font-size: 18px;
+  font-weight: bold;
+  width: 400px;
+  text-align: center;
+  height: 50px;
+  padding: 10px;
+}
+
+.tableSubHeader {
+  padding: 10px;
+  font-size: 16px;
+  color: gray;
+  width: 400px;
+  text-align: left;
+}
+
+.separator {
+  border-bottom: 3px solid lightgray;
+}
+
+.coloredRow {
+  background-color: lightgray;
+}
+
+.tableRow {
+  width: 100%;
+  padding: 10px;
+}
+
+.cell {
+  min-width: 200px;
+  text-align: center;
+}
+
+.activeCell {
+  background-color: coral;
+  color: red;
+  text-align: center;
+}
+
+.tableBody {
+  overflow-y: auto;
+  overflow-x: hidden;
+}

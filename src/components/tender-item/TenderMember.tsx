@@ -1,9 +1,9 @@
 import { FC } from 'react';
-import { Tender } from 'src/tenders';
 
-import styles from './TenderItem.module.css';
+import { Tender } from '../../tenders';
+import styles from './TenderMember.module.css';
 
-const TenderItem: FC<Tender> = ({ header, events, productionTime, guarantee, conditions, price, actions }) => {
+const TenderMember: FC<Tender> = ({ header, events, productionTime, guarantee, conditions, price, actions }) => {
   return (
     <div className={styles.tenderItem}>
       <h5>{header}</h5>
@@ -17,4 +17,4 @@ const TenderItem: FC<Tender> = ({ header, events, productionTime, guarantee, con
   );
 };
 
-export default TenderItem;
+export default TenderMember;
